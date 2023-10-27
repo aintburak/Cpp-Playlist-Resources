@@ -1,4 +1,4 @@
-# Welcome to the Wonderful World of C++ 💖
+# Welcome to the Wonderful World of C++ 🔮
 
 Hello ! Welcome to my enchanting notes GitHub repository, well tbh, I've created this repo so that I could come back and recall at somepoint irl. It's the ultimate place to embark on a magical journey into the spellbinding world of C++.
 
@@ -18,7 +18,7 @@ In this enchanting Repository, we'll whisk you away on a magical journey from C+
 - **VSCode Charms**: We'll guide you through the mystical realm of coding with Visual Studio Code.
 - **Lambda Love Spells**: Experience the magic of C++ Lambda Expressions – they're pure enchantment!
 
-## Repository Structure: Your Quest Awaits 🔮
+## Repository Structure: Your Quest Awaits 🌸
 
 ### Setting Up Your Cauldron (Installation and Setup) 🪄
 
@@ -37,7 +37,7 @@ It's time to master the art of creating and manipulating variables and data type
 
 To make the most of this enchanting journey, all you need is a basic understanding of programming concepts. No prior knowledge of C++ is required. Just ensure you have Visual Studio Code (VSCode) installed on your computer, and you'll be ready to cast your coding spells.
 
-## Feedback and Contributions: Join Our Coven  🌸
+## Feedback and Contributions: Join Our Coven  💖
 
 We're delighted to have you in our coding coven! If you have suggestions, spot any mystical mysteries that need solving, or wish to share your own magical insights with this course, please don't hesitate to reach out. You can open an enchanted issue or send us a spellbinding pull request – we're always eager to learn.
 
