@@ -7,6 +7,10 @@
 #include <cctype> 
 
 class Person {
+
+    friend std::ostream& operator<<(std::ostream& os, const Person& rhs);
+
+
     std::string name;
     int age;
 public:
@@ -21,10 +25,18 @@ public:
     }
 };
 
+
+std::ostream& operator<<(std::ostream& os, const Person& rhs) {
+
+    os << rhs.name;
+    return os;
+
+}
+
 // Find an element in a container
 void find_test() {
     std::cout << "\n========================" << std::endl;
-
+    /*
     std::vector<int> vec{ 1,2,3,4,5 };
 
     auto loc = std::find(std::begin(vec), std::end(vec), 1);
@@ -33,7 +45,7 @@ void find_test() {
         std::cout << "Found the number: " << *loc << std::endl;
     else
         std::cout << "Couldn't find the number" << std::endl;
-
+    */
     std::list<Person> players{
         {"Larry", 18},
         {"Moe", 20},
@@ -42,9 +54,10 @@ void find_test() {
 
     auto loc1 = std::find(players.begin(), players.end(), Person{ "Moe", 20 });
     if (loc1 != players.end())
-        std::cout << "Found  Moe" << std::endl;
+        std::cout << "Found " << *loc1 << std::endl;
     else
         std::cout << "Moe not found" << std::endl;
+        
 }
 
 // Count the number of elements in a container
